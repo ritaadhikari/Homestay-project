@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 25px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/homepage">Abode Stay</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">Events</a>
+              <a class="nav-link" href="#">Culture</a>
+              <a class="nav-link disabled">About US</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <body class="grey lighten-2">
+        <div class="container">
+          <div class="col s12 m7">
+      
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://www.holidify.com/images/cmsuploads/compressed/dress_20180702130652.jpg">
+                
+              <div class="card-stacked">
+                <div class="card-content">
+                    <h3><span class="card-title">Khyali Naach</span></h3>
+                    <p> Nepal Academy of Music and Drama and Tamu Heula Chonj Dhi Gurung group, a two-day cultural show, Rodhi Festival, concluded in Lamjung on March 9. Rodhi, an age-old tradition where the youth come together to sing and dance to folk music, is popular in and around Western Nepal.
+                    </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">See more details >>></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      
+          <div class="col s12 m7">
+      
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://i.pinimg.com/736x/f8/0d/9b/f80d9b5bb2ba90f6399839149edfa466--folk-dance-nepal.jpg">
+              <div class="card-stacked">
+                <div class="card-content">
+                  
+                  <h3><span class="card-title">Rodi Dance</span></h3>
+                  <p> Nepal Academy of Music and Drama and Tamu Heula Chonj Dhi Gurung group, a two-day cultural show, Rodhi Festival, concluded in Lamjung on March 9. Rodhi, an age-old tradition where the youth come together to sing and dance to folk music, is popular in and around Western Nepal.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">See more details >>></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+      <script>
+          $(window).scroll(function() {
+		$('.fadedfx').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+500) {
+				$(this).addClass("fadeIn");
+			}
+		});
+	});
+      </script>
+</body>
+</html>
